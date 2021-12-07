@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root{
+--main-bg-color: #1D2126;
+--font-color: #F2F2F2;
+--font-color2: #F2B544;
+--font-color3: #f3ce88;
+--font-family1:  'Lato', sans-serif;
+--font-famyly2: 'Authentic', sans-serif;
+}
+@font-face {
+    font-family: 'Authentic';
+    src: url(./Authentic-Signature.ttf);
+}
+
+
+.seccion-tarifario{
+    background-color: var(--main-bg-color);
+}
+.header-tarifario{
+    display: flex;
+    justify-content: center;
+}
+/* Imagenes SVG, Encabezado*/
+.img-decorativa1{
+    width: 23%;
+    margin-top: -18%;
+    margin-left: -3%;
+    position: absolute;
+}
+.img-decorativa2 {
+    width: 23%;
+    margin-left: 74.3%;
+    margin-top: -13%;
+    position: absolute;
+}
+.Title-section{
+    font-family:var(--font-family1);
+    color: var(--font-color2);
+    font-size: 4.5rem;
+}
+.Subtitle-section{
+    font-family:var(--font-family1);
+    color: var(--font-color2);
+    margin: auto;
+    font-size: 2.2rem;
+    margin-top: -3%;
+    margin-left: 23%;
+}
+.subtitle-tarifario{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0% 0% 0%;
+}
+.descuento-tarifario{
+    font-family:var(--font-family1);
+    color: var(--font-color);
+    font-size: 2.5rem;
+}
+.PC-titulo-tarifario{
+    align-items: center;
+}
+.titulo-tarifario{
+    font-family: var(--font-famyly2);
+    color: var(--font-color2);
+    font-size: 5.6rem;
+        
+}
+.year-tarifario{
+    font-family: var(--font-famyly2);
+    color: var(--font-color2);
+    margin-top: -4%;
+    margin-left: 10%;
+    font-size: 1.4rem;
+}
+.z-index-t{
+    z-index: 1;
+}
+.ben-prices{
+    font-family:var(--font-family1);
+    color:var(--font-color2);
+    text-align: center;
+}
+.ben-Title{
+    font-family:var(--font-family1);
+    color:var(--font-color3);
+    text-align: center;
+}
+.ben-descuento {
+    margin-bottom: 0rem;
+}
+.ben-precio {
+    font-size: 1.9rem;
+    margin-bottom: 0rem;
+}
+.ben-prince-bolivar {
+    font-size: 1.9rem;
+}
+.ben1-box{
+    background-color: rgba(243,206,136, 0.5);
+    height: 200px;
+    border: 2.5px solid var(--font-color2);
+    width: 200px;
+    margin: auto;
+}
+.botton {
+    display: flex;
+    justify-content: center;
+}
+.ben-button {
+    border-radius: 15px;
+    padding: 0% 5% 1% 5%;
+    border: 1px solid var(--font-color2);
+    background: transparent;
+    color: var(--font-color);
+}
+.ben2-box{
+    border: 2.5px solid var(--font-color2);
+    width: 200px;
+    margin: auto;
+}
+.box1 {
+    height: 100px;
+}
+.box2 {
+    height: 100px;
+    background-color: rgba(243,206,136, 0.5);
+    border-top: 2.5px solid var(--font-color2);
+}
+.ben3-box{
+    border: 2.5px solid var(--font-color2);
+    width: 200px;
+    margin: auto;
+}
+.box3 {
+    height: 150px;
+}
+.box4 {
+    height: 50px;
+    background-color: rgba(243,206,136, 0.5);
+    border-top: 2.5px solid var(--font-color2);
+}
+
+.revista-digital {
+    align-items: center;
+}
+
+.title-revista {
+    font-size: 2.5rem;
+    color: var(--font-color);
+}
+
+.box-contact {
+    border: 2.5px solid var(--font-color2);
+    color: var(--font-color3);
+    padding: 2% 5% 2% 5%;
+    font-size: 1.5rem;
+}
+.linea {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.categoria-tarifario{
+    font-size: 2.5rem;
+    color: var(--font-color2);
+}
+.cuerpo-tarifario > p:nth-child(1) {
+    color: var(--font-color2);
+    font-size: 1.5rem;
+}
+.remarcado-blanco{
+    color: var(--font-color);
+    font-size: 1.3rem;
+}
+.remarcado-dorado{
+    color: var(--font-color2);
+    font-size: 1.3rem;
+}
+
+/* Logo inferior */
+.FooterTarifario{
+    display: flex;
+    justify-content: end;
+}
+.LogoInferior{
+    width: 10%;
+}
+
+/* Trajeta a mostrar*/
+.fondo-tarjetaBeneficio {
+    position: static;
+    margin-left: -6%
+}
+#rvContenido {
+    background: var(--main-bg-color);
+    max-width: 1000px;
+    max-height: 900px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#rvContenido > div:nth-child(1) > figure:nth-child(1) {
+    width: 16%;
+}
+.rv-tarifarioTrajeta {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+    margin-bottom: 0.1%
+}
+.img-tarjetaBeneficio{
+    width: 100%;
+    
+}
+.tarjetaTitulo{
+    font-family: var(--font-famyly2);
+    font-size: 5.5rem;
+    color: var(--font-color2);
+}
+.tarjeta-TituloPaquete{
+    font-family: var(--font-family1);
+    color: var(--font-color);
+    font-size: 1.5rem;
+}
+.tarjeta-ContenidoPaquete{
+    font-size: 0.9rem;  
+    font-family: var(--font-family1);
+    color: var(--font-color2);
+}
+.tarjeta-PautaPaquete{
+    font-family: var(--font-family1);
+    color: var(--font-color);
+    font-size: 1.5rem;
+
+}
+.tarjetaContacto{
+    border-radius: 15px;
+    padding: 0% 5% 1% 5%;
+    border: 3px solid var(--font-color2);
+    background: transparent;
+    color: var(--font-color);
+    width: 30%;
+    margin: 1%;
+}
+div.row:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1920px){
+    .Subtitle-section {
+        margin-top: -2%;
+        margin-left: 16%;
+    }
+
+    .img-decorativa1 {
+        margin-top: -4%;
+    }
+    .img-decorativa2 {
+        margin-left: 75.3%;
+        margin-top: -8.5%;
+    }
+    .year-tarifario {
+        margin-left: 7%;
+        font-size: 1.6rem;
+        margin-top: -3%;
+    }
+
+} 
+
+@media screen and (max-width: 1366px) {
+    
+    .img-decorativa2{
+        margin-top: -12.5%;
+        margin-left: 74.3%;
+    }
+
+
+    .Subtitle-section{
+        margin-left: 23%;
+    }
+    .year-tarifario{
+        margin-left: 10%;
+        margin-top: -4%;
+    }
+}
+@media screen and (max-width: 1280px){
+
+    .Subtitle-section {
+        margin-top: -3%;
+        margin-left: 25%;
+    }
+    .year-tarifario{
+        margin-left: 10%;
+        margin-top: -4%;
+        
+    }
+    .img-decorativa2 {
+        margin-left: 74.3%;
+        margin-top: -13%;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .img-decorativa1 {
+        margin-top: -4.89%;
+    }
+    .Title-section {
+        font-size: 3.8rem;
+    }
+    .Subtitle-section { 
+        font-size: 1.7rem;
+    }
+    .img-decorativa2 {
+        margin-top: -14%;
+        margin-left: 73.3%;
+    }
+    .titulo-tarifario {
+        font-size: 5.2rem;
+    }
+    .descuento-tarifario {
+        font-size: 2.2rem;
+    }
+    .year-tarifario {
+        margin-left: 13%;
+        margin-top: -5%;
+    }
+    .AlinearContenido{
+        align-items: center;
+        justify-content: center;
+    }
+    #rvContenido {
+        max-width: 700px;
+        max-height: 600px;
+    }
+    .rv-tarifarioTrajeta {
+        margin-bottom: 11%;
+    }
+    .tarjetaTitulo {
+        font-size: 3.0rem;
+    }
+    .tarjeta-TituloPaquete {
+        font-size: 1rem;
+    }
+    .tarjeta-ContenidoPaquete {
+        font-size: 0.8rem;
+    }
+    .tarjetaContacto {
+        padding: 0% 5% 0% 5%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .Title-section {
+        font-size: 2.9rem;
+    }
+    .Subtitle-section {
+        font-size: 1.6rem;
+    }
+    .title-revista {
+        font-size: 2.0rem;
+    }
+    .img-decorativa1{
+        margin-top: -6.2%;
+        margin-left: -5%;
+    }
+    .AlinearContenido{
+        align-items: center;
+        justify-content: center;
+    }
+    .img-decorativa2 {
+        margin-top: -17%;
+        margin-left: 72.3%;
+    }
+    .titulo-tarifario {
+        font-size: 4.5rem;
+    }
+    .year-tarifario {
+        margin-left: 14%;
+        margin-top: -6%;
+        font-size: 1.3rem;
+    }
+    .descuento-tarifario {
+        font-size: 1.9rem;
+    }
+    .ben1-box {
+        width: 150px;
+    }
+    .ben2-box {
+        width: 150px;
+    }
+    .ben3-box {
+        width: 150px;
+    }
+    .box-contact {
+        font-size: 1.4rem;
+    }
+    .linea {
+        width: 100%;
+    }
+    .categoria-tarifario {
+        font-size: 2.0rem;
+    }
+    .cuerpo-tarifario{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .img-decorativa1 {
+        margin-top: -8.2%;
+        margin-left: -6.2%;
+    }
+    .img-decorativa2 {
+        margin-top: -24%;
+        margin-left: 71.3%;
+    }
+
+    .Title-section {
+        font-size: 2.5rem;
+    }
+
+    .Subtitle-section {
+        font-size: 1.4rem;
+        margin-left: 32%
+    }
+
+    .title-revista {
+        font-size: 1.5rem;
+    }
+    .categoria-tarifario {
+        font-size: 1.8rem;
+    }
+    .cuerpo-tarifario {
+        font-size: 1.0rem;
+    }
+    .titulo-tarifario {
+        font-size: 3.5rem;
+    }
+    .year-tarifario {
+        margin-left: 20%;
+        font-size: 1.2rem;
+    }
+    .descuento-tarifario {
+        font-size: 1.5rem;
+    }
+    .ben1-box {
+        width: 200px;
+    }
+    .ben2-box {
+        width: 200px;
+    }
+    .ben3-box {
+        width: 200px;
+    }
+
+    .box-contact {
+        font-size: 1rem;
+    }
+    .remarcado-blanco {
+        font-size: 1.0rem;
+    }
+    .remarcado-dorado {
+        font-size: 1.0rem;
+    }
+    .cuerpo-tarifario > p:nth-child(1) {
+        font-size: 1rem;
+    }
+    .AlinearContenido{
+        align-items: center;
+        justify-content: center;
+    }
+    .img-tarjetaBeneficio {
+        visibility: collapse;
+    }
+    #rvContenido {
+        max-width: 500px;
+        max-height: 700px;
+    }
+    .tarjetaTitulo {
+        text-align: center;
+    }
+    .tarjetaContacto {
+        padding: 0% 0% 0% 0%;
+        font-size: 0.9rem;
+    }
+    div.row:nth-child(2) {
+        text-align: justify;
+    }
+    #contenidoMain {
+        margin-left: -13%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .Title-section {
+        font-size: 2.0rem;
+    }
+
+    .Subtitle-section {
+        font-size: 1.0rem;
+    }
+    .img-decorativa1 {
+        width: 20%;
+        margin-top: -10%;
+        margin-left: -7%;
+    }
+    .img-decorativa2 {
+        width: 20%;
+        margin-top: -22%;
+    }
+    .year-tarifario {
+        margin-left: 23%;
+        margin-top: -8%;
+    }
+    .box-contact {
+        font-size: 0.7rem;
+    }
+    #rvContenido {
+        max-width: 350px;
+    }
+    .categoria-tarifario {
+        font-size: 1.4rem;
+    }
+}
