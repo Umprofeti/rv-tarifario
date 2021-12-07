@@ -1,0 +1,4 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/dmpv9l6x505x/public_html/tarifario
